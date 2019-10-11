@@ -1,0 +1,16 @@
+#include<stdio.h> /*L6Q2*/
+
+int main()
+{
+    char nome[100];
+    int x;
+
+    printf("Insira um Nome ou uma frase: ");
+    gets(nome);
+    x=0;
+    while (nome[x] != '\0')
+            x++;
+
+    printf("Voce inseriu %d caracteres!!!!",x);
+    return 0;
+}
